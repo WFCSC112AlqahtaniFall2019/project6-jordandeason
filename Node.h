@@ -16,7 +16,7 @@ public:
 
     ~Node(){//Destructor for Node; is called as many times as there are nodes
         delete next;
-       // cout << "Node Destructor Called." << endl;
+        cout << "Node Destructor Called." << endl;
     }
 
     //Creation of friend class
