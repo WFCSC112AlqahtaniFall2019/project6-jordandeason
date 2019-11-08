@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/BinaryInsertionSort.dir/all:
 	$(MAKE) -f CMakeFiles/BinaryInsertionSort.dir/build.make CMakeFiles/BinaryInsertionSort.dir/depend
 	$(MAKE) -f CMakeFiles/BinaryInsertionSort.dir/build.make CMakeFiles/BinaryInsertionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target BinaryInsertionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target BinaryInsertionSort"
 .PHONY : CMakeFiles/BinaryInsertionSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BinaryInsertionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinaryInsertionSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/BinaryInsertionSort.dir/rule

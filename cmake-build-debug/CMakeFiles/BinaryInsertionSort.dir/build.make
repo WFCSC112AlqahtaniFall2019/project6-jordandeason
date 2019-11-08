@@ -57,22 +57,9 @@ include CMakeFiles/BinaryInsertionSort.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BinaryInsertionSort.dir/flags.make
 
-CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o: CMakeFiles/BinaryInsertionSort.dir/flags.make
-CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o: ../InsertionSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o -c /Users/JordanDeason/CLionProjects/project6-jordandeason/InsertionSort.cpp
-
-CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JordanDeason/CLionProjects/project6-jordandeason/InsertionSort.cpp > CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.i
-
-CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JordanDeason/CLionProjects/project6-jordandeason/InsertionSort.cpp -o CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.s
-
 CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o: CMakeFiles/BinaryInsertionSort.dir/flags.make
 CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o: ../BinaryInsertionSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o -c /Users/JordanDeason/CLionProjects/project6-jordandeason/BinaryInsertionSort.cpp
 
 CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.s: cmake_force
 
 CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o: CMakeFiles/BinaryInsertionSort.dir/flags.make
 CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o: ../LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o -c /Users/JordanDeason/CLionProjects/project6-jordandeason/LinkedList.cpp
 
 CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.i: cmake_force
@@ -98,19 +85,17 @@ CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.s: cmake_force
 
 # Object files for target BinaryInsertionSort
 BinaryInsertionSort_OBJECTS = \
-"CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o" \
 "CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o" \
 "CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o"
 
 # External object files for target BinaryInsertionSort
 BinaryInsertionSort_EXTERNAL_OBJECTS =
 
-BinaryInsertionSort: CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o
 BinaryInsertionSort: CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o
 BinaryInsertionSort: CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o
 BinaryInsertionSort: CMakeFiles/BinaryInsertionSort.dir/build.make
 BinaryInsertionSort: CMakeFiles/BinaryInsertionSort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable BinaryInsertionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/JordanDeason/CLionProjects/project6-jordandeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BinaryInsertionSort"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BinaryInsertionSort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

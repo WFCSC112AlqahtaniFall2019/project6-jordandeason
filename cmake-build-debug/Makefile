@@ -150,33 +150,6 @@ BinaryInsertionSort.cpp.s:
 	$(MAKE) -f CMakeFiles/BinaryInsertionSort.dir/build.make CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.s
 .PHONY : BinaryInsertionSort.cpp.s
 
-InsertionSort.o: InsertionSort.cpp.o
-
-.PHONY : InsertionSort.o
-
-# target to build an object file
-InsertionSort.cpp.o:
-	$(MAKE) -f CMakeFiles/BinaryInsertionSort.dir/build.make CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o
-.PHONY : InsertionSort.cpp.o
-
-InsertionSort.i: InsertionSort.cpp.i
-
-.PHONY : InsertionSort.i
-
-# target to preprocess a source file
-InsertionSort.cpp.i:
-	$(MAKE) -f CMakeFiles/BinaryInsertionSort.dir/build.make CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.i
-.PHONY : InsertionSort.cpp.i
-
-InsertionSort.s: InsertionSort.cpp.s
-
-.PHONY : InsertionSort.s
-
-# target to generate assembly for a file
-InsertionSort.cpp.s:
-	$(MAKE) -f CMakeFiles/BinaryInsertionSort.dir/build.make CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.s
-.PHONY : InsertionSort.cpp.s
-
 LinkedList.o: LinkedList.cpp.o
 
 .PHONY : LinkedList.o
@@ -216,9 +189,6 @@ help:
 	@echo "... BinaryInsertionSort.o"
 	@echo "... BinaryInsertionSort.i"
 	@echo "... BinaryInsertionSort.s"
-	@echo "... InsertionSort.o"
-	@echo "... InsertionSort.i"
-	@echo "... InsertionSort.s"
 	@echo "... LinkedList.o"
 	@echo "... LinkedList.i"
 	@echo "... LinkedList.s"
