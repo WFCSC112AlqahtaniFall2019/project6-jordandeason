@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "BinaryInsertionSort"
   "BinaryInsertionSort.pdb"
   "CMakeFiles/BinaryInsertionSort.dir/BinaryInsertionSort.cpp.o"
+  "CMakeFiles/BinaryInsertionSort.dir/InsertionSort.cpp.o"
   "CMakeFiles/BinaryInsertionSort.dir/LinkedList.cpp.o"
 )
 

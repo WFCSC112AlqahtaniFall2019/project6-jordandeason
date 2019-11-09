@@ -88,6 +88,9 @@
 		<Unit filename="/Users/JordanDeason/CLionProjects/project6-jordandeason/BinaryInsertionSort.h">
 			<Option target="BinaryInsertionSort"/>
 		</Unit>
+		<Unit filename="/Users/JordanDeason/CLionProjects/project6-jordandeason/InsertionSort.cpp">
+			<Option target="BinaryInsertionSort"/>
+		</Unit>
 		<Unit filename="/Users/JordanDeason/CLionProjects/project6-jordandeason/LinkedList.cpp">
 			<Option target="BinaryInsertionSort"/>
 		</Unit>
